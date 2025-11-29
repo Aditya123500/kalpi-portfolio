@@ -115,14 +115,14 @@ Prerequisite:
 ```bash
 python backend/main.py
 ```
-# Server starts at [http://127.0.0.1:8000](http://127.0.0.1:8000)
+ Server starts at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 2. Run the Frontend (Terminal 2) Open a new terminal window/tab and run:
 
 ```bash
 streamlit run frontend/app.py
 ```
-# Dashboard opens at http://localhost:8501
+ Dashboard opens at http://localhost:8501
 
 ---
 
