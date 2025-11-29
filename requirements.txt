@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+yfinance
+riskfolio-lib
+plotly
+pydantic
+numpy
+pandas
+scipy
+requests
+cvxpy
+scikit-learn
+statsmodels
