@@ -105,10 +105,9 @@ Stop the App: Press Ctrl+C in the terminal to stop the containers.
 
 ### **Option B: Local Python Setup**
 
+Prerequisite:  # Install Dependencies
 ```bash
-Prerequisite: 
-             # Install Dependencies
-               pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 1. Run the Backend (Terminal 1)
 
@@ -133,7 +132,7 @@ Endpoint: POST /optimize
 
 Payload:
 JSON
-
+```text
 {
   "tickers": ["AAPL", "MSFT", "GOOGL"],
   "method": "Mean-Variance - Max Sharpe",
@@ -144,9 +143,9 @@ JSON
   "risk_free_rate": 0.02,
   "sparse": false
 }
-
+```
 ---
-
+```text
 ## 💻 Tech Stack
 Python 3.9+
 Riskfolio-Lib: Portfolio Optimization Engine
@@ -154,5 +153,5 @@ FastAPI: High-performance Backend API.
 Streamlit: Interactive Frontend Dashboard.
 Plotly: Interactive Financial Charts.
 YFinance: Market Data Source.
-
+```
 ---
