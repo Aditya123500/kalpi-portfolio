@@ -70,7 +70,7 @@ Historical performance simulation including Growth, Drawdown analysis, and Month
 ├── Dockerfile           # Image Configuration
 ├── docker-compose.yml   # Container Orchestration
 └── README.md
-'''
+```
 ---
 
 ## Installation & Usage
@@ -81,7 +81,7 @@ Historical performance simulation including Growth, Drawdown analysis, and Month
 # Clone the repository
 git clone [https://github.com/Aditya123500/kalpi-portfolio.git](https://github.com/Aditya123500/kalpi-portfolio.git)
 cd kalpi-portfolio
-
+```
 ### **Option A: Using Docker**
 
 Prerequisite: Ensure Docker Desktop is installed and running.
@@ -90,13 +90,13 @@ Run the App: Open a terminal in the project root and run:
 
 ```bash
 docker-compose up --build
-
+```
 Streamlit will show something like:
 You can now view your Streamlit app in your browser.
-
+```
 Local URL: http://localhost:8501
 Network URL: http://172.17.0.2:8501
-
+```
 Access the Dashboard: Open the Local URL and you'll navigate to: http://localhost:8501
 
 Stop the App: Press Ctrl+C in the terminal to stop the containers.
@@ -109,17 +109,19 @@ Stop the App: Press Ctrl+C in the terminal to stop the containers.
 Prerequisite: 
              # Install Dependencies
                pip install -r requirements.txt
-
+```
 1. Run the Backend (Terminal 1)
 
 ```bash
 python backend/main.py
+```
 # Server starts at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 2. Run the Frontend (Terminal 2) Open a new terminal window/tab and run:
 
 ```bash
 streamlit run frontend/app.py
+```
 # Dashboard opens at http://localhost:8501
 
 ---
