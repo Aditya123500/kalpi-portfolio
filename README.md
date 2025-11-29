@@ -27,25 +27,25 @@ This project combines **FastAPI** (Backend Engine), **Streamlit** (Frontend Dash
 ### **1. Main Dashboard & Metrics**
 
 Comprehensive portfolio analytics including Sharpe Ratio, CVaR, and active management metrics.
-![Main Dashboard](screenshots/dashboard_main.png)
+![Main Dashboard](Screenshots/dashboard_main.png)
 
 ### **2. Efficient Frontier**
 
 Visualizes the optimal risk/return tradeoff with a Monte Carlo simulation cloud.
-![Efficient Frontier](screenshots/efficient_frontier.png)
+![Efficient Frontier](Screenshots/efficient_frontier.png)
 
 ### **3. Allocation & Risk Analysis**
 Breakdown of optimal weights and factor exposure (Beta) against the benchmark.
 
-![asset_allocation](screenshots/asset_allocation.png)
-![factor_exposure](screenshots/factor_exposure.png) 
+![asset_allocation](Screenshots/asset_allocation.png)
+![factor_exposure](Screenshots/factor_exposure.png) 
 
 
 ### 4. **Backtesting Engine**
 
 Historical performance simulation including Growth, Drawdown analysis, and Monthly Return Heatmaps.
-![Backtest Charts](screenshots/backtest_charts.png)
-![Returns Heatmap](screenshots/returns_heatmap.png)
+![Backtest Charts](Screenshots/backtest_charts.png)
+![Returns Heatmap](Screenshots/returns_heatmap.png)
 
 ---
 
