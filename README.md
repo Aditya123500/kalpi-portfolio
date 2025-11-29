@@ -51,6 +51,7 @@ Historical performance simulation including Growth, Drawdown analysis, and Month
 
 ## 📂 Project Structure
 
+```text
 ├── backend/
 │   ├── main.py          # FastAPI Entry Point
 │   ├── logic.py         # Core Optimization Logic
@@ -60,16 +61,16 @@ Historical performance simulation including Growth, Drawdown analysis, and Month
 ├── frontend/
 │   └── app.py           # Streamlit Dashboard
 │
+├── screenshots/         # Project Images
+│   ├── dashboard_main.png
+│   ├── efficient_frontier.png
+│   └── ...
+│
 ├── requirements.txt     # Dependencies
 ├── Dockerfile           # Image Configuration
 ├── docker-compose.yml   # Container Orchestration
-├── screenshots/               
-│   ├── dashboard_main.png
-│   ├── efficient_frontier.png
-│   ├── asset_allocation.png
-│   ├── ... (etc)
 └── README.md
-
+'''
 ---
 
 ## Installation & Usage
