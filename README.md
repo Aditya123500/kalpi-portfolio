@@ -6,7 +6,7 @@ This project combines **FastAPI** (Backend Engine), **Streamlit** (Frontend Dash
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Optimization Strategies
 * **Mean-Variance:** Max Sharpe, Min Volatility.
@@ -22,7 +22,7 @@ This project combines **FastAPI** (Backend Engine), **Streamlit** (Frontend Dash
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### **1. Main Dashboard & Metrics**
 
@@ -49,7 +49,7 @@ Historical performance simulation including Growth, Drawdown analysis, and Month
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── backend/
