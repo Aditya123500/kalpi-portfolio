@@ -144,20 +144,4 @@ JSON
   "sparse": false
 }
 ```
----
 
-## 💻 Tech Stack
-
-Python 3.9+
-
-Riskfolio-Lib: Portfolio Optimization Engine
-
-FastAPI: High-performance Backend API.
-
-Streamlit: Interactive Frontend Dashboard.
-
-Plotly: Interactive Financial Charts.
-
-YFinance: Market Data Source.
-
----
