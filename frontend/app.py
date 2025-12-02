@@ -110,7 +110,7 @@ if st.sidebar.button("Run Optimization ⚡"):
             
             import os
             # Default to localhost for local testing, but allow Docker to override it
-            API_URL = os.getenv("API_URL", "http://127.0.0.1:8000") 
+            API_URL = os.getenv("API_URL", "https://kalpi-backend.onrender.com") 
             res = requests.post(f"{API_URL}/optimize", json=payload)
             
             if res.status_code == 200:
