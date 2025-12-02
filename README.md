@@ -79,7 +79,7 @@ Historical performance simulation including Growth, Drawdown analysis, and Month
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Aditya123500/kalpi-portfolio.git](https://github.com/Aditya123500/kalpi-portfolio.git)
+git clone https://github.com/Aditya123500/kalpi-portfolio.git
 cd kalpi-portfolio
 ```
 ### **Option A: Using Docker**
